@@ -39,35 +39,8 @@ function agregarProductosAlDom() {
     })
 }
 
+agregarProductosAlDom()
 
-/* while (verdadero) {
-    if(confirm("Desea agregar productos al carrito?")) {
-        calcularTotal()
-    } else {
-        break;
-    }
-}
-
-function calcularTotal() {
-    let pedido = prompt("Que producto desea adquirir?")
-
-    const busqueda = productos.find((el) => el.nombre === pedido)
-
-    if (busqueda) {
-        total += busqueda.valor
-    }
-    
-    console.log("El total parcial a pagar es $", total)
-
-    let confirmacion = confirm("Desea agregar más productos al carrito?")
-
-    if (confirmacion) {
-        calcularTotal()
-    } else {
-        console.log("El total a pagar es $", total)
-
-    }
-} */
 
 function buscador() {
     let buscar = prompt("Ingrese el producto que esta buscando:")
